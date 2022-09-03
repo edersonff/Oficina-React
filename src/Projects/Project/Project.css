@@ -1,0 +1,112 @@
+/* full_page */
+.project,
+.half-page,
+.half-page img,
+.painel .textbox{
+  width: 100%;
+}
+.half-page{
+  height: 50%;
+  z-index: -1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BFBFBF;
+}
+.half-page img{
+  min-height: 100%;
+  position: absolute;
+  z-index: -2;
+  filter:brightness(40%);
+}
+.project{
+  box-sizing: border-box;
+  min-height: 50%;
+  background: #DFDFDF;
+}
+.content{
+  display: flex;
+}
+/* Painel */
+.painel{
+  display: flex;
+  background-color: rgb(236, 236, 236);
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 22%;
+  padding: 18px 26px;
+  box-sizing: border-box;
+  min-height: 70vh;
+  min-width: 200px;
+  left: 2%;
+  top: 25%;
+  transition: opacity 0.1s;
+}
+.painel p.paragraf{
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #858585;
+  text-align:justify-all;
+}
+.painel h1.title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.painel h2.subtitle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.painel h3.title{
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.painel .image{
+  width: 106px;
+  height: 106px;
+  background-color: gainsboro;
+  border-radius: 55px;
+}
+.project_images{
+  width: 100%;
+  margin-left: 23%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.project_images .image{
+  background-color: white;
+  width: 308px;
+  height: 212px;
+  margin: 10px 5px;
+}
+@media only screen and (max-width: 900px) {
+  .half-page h1{
+    font-size: 65px;
+  }
+  .painel{
+    opacity: 0;
+  }
+  .project_images{
+    margin-left: 0;
+    justify-content: center;
+  }
+  .project_images .image {
+    width: 100%;
+  }
+
+}
