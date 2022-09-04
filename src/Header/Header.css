@@ -1,25 +1,24 @@
 
-header.navbar{
+.header{
   display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 0 8%;
   width: 100%;
-  height: 11%;
+  height: 117px;
   box-sizing: border-box;
-  position: absolute;
-  }
-header .title{
-  color: var(--title);
-  font-size: 30px;
-  font-weight: 500;
-  letter-spacing: -0.055em;
 }
-header .links{
+.header .logo{
+  height: 112px;
+}
+.header .logo img{
+  height: 100%;
+}
+.header .links{
   min-width: 40%;
   justify-content: space-evenly;
 }
-header .links a{
+.header .links a{
   font-weight: bold;
   letter-spacing: -0.035em;
   font-size: 1.1em;
@@ -27,7 +26,7 @@ header .links a{
   padding: 0 1.5%;
   color: var(--a)
 }
-header .menu-btn{
+.header .menu-btn{
   display: none;
   width: 45px;
   height: 45px;
@@ -139,4 +138,9 @@ header .menu-btn{
 }
 .side-menu .group_buttons{
   margin-bottom: 20%;
+}
+/* Cards */
+.cards{
+  min-width: 500px;
+  display: flex;
 }

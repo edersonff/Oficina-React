@@ -2,9 +2,11 @@
 :root{
   --bg: #fff;
   --fill-btn-text: #fff;
-  --main: #FD6D2C;
+  --main: #DB0E0E;
+  --selected: #5DC1B9;
+  --selected-second: #54aea6;
   --h1: #000;
-  --p: #939393;
+  --p: #BBBBBB;
   --a: #7B7B7B;
   --title: #828282;
 }
@@ -111,7 +113,7 @@ a:active svg{
   display: none!important;
 }
 @media only screen and (max-width: 800px) {
-  header .links{
+  header .links, header .cards{
     display: none;
   }
   header .menu-btn,
@@ -125,7 +127,15 @@ a:active svg{
   header{
     height: 5%
   }
-  .btn{
-    margin: 0 auto;
+  .content{
+    flex-wrap: wrap;
+  }
+  .about, .items{
+    width: 100%!important;
+  }
+  .full .title{
+    min-width: auto!important;
+    width: 100%!important;
+    font-size: 20px!important;
   }
 }

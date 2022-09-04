@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className="App">
       <div className="half-page">
-        <img src="/img/full-size/projects.png" alt="" srcset="" />
+        <img src="img/full-size/projects.png" alt="" srcset="" />
           <h1>Projetos</h1>
       </div>
         <div className="projects">

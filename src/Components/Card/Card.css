@@ -1,0 +1,27 @@
+.card{
+    width: 310px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.card .icon{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.info{
+    height: 53px;
+}
+.info .subtitle{
+    color: var(--p);
+    font-size: 16px;
+    margin: 0;
+    font-weight: medium;
+}
+.info .title{
+    font-size: 20px;
+    font-weight: 600;
+}
