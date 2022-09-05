@@ -11,6 +11,10 @@ import Error from './Error/Error';
 import Header from './Header/Header';
 import Projects from './Projects/Projects';
 import Project from './Projects/Project/Project';
+import OndeFica from './OndeFica/OndeFica';
+import Footer from './Footer/Footer';
+import RedesSociais from './RedesSociais/RedesSociais';
+import HorarioAtendimento from './HorarioAtendimento/HorarioAtendimento';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,9 +22,11 @@ root.render(
     <Header />
     <Routes>
       <Route path='/' element={<Home />}/>
-      <Route path='/projetos' element={<Projects />}/>
-      <Route path='/projetos/:id' element={<Project />}/>
+      <Route path='/onde-fica' element={<OndeFica />}/>
+      <Route path='/redes-sociais' element={<RedesSociais />}/>
+      <Route path='/horario-atendimento' element={<HorarioAtendimento />}/>
       <Route path='*' element={<Error />}/>
     </Routes>
+    <Footer />
   </Router>
 );

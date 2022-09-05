@@ -4,7 +4,7 @@ import './NavigationA.css'
 
 function NavigationA({screen}) {
     const local = useLocation();
-    const isLocal = (location) => { return location === local.pathname ? 'selected' : null };
+    const isLocal = (location) => { return location === local.pathname ? 'selected' : '' };
     return (
         <div className={'NavigationA '+isLocal(screen.route)}>
             <Link className='link' to={screen.route}>{screen.title}</Link>

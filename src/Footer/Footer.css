@@ -1,0 +1,20 @@
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer *{
+    margin: 0 10%;
+}
+.footer h1{
+    font-weight: 100;
+    font-size: 1.4em;
+}
+.footer p{
+    font-weight: 300;
+    font-size: 1em;
+}

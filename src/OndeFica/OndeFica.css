@@ -1,0 +1,62 @@
+h1.full-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  font-weight: 400;
+  background-color: var(--main);
+  color: #fff;
+  height: 75px;
+}
+.map{
+  width: 100%;
+  height: 374px;
+}
+.map div{
+  height: 100%;
+  width: 100%;
+}
+
+.address-btn{
+  width: 50%;
+}
+.address-btn a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 2em;
+  font-weight: 700;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var(--main);
+  color: white;
+}
+
+.address-container{
+  display: flex;
+  width: 100%;
+}
+
+.address{
+  width: 40%;
+  padding: 20px 0;
+}
+.iconTheme{
+  display: inline-block;
+  font-size: 1.3em;
+  color: var(--main);
+}
+.address .title{
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.address p{
+  margin: 0 10px;
+}
+.address p.more{
+  color: gray;
+}

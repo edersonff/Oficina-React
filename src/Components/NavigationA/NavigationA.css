@@ -1,6 +1,6 @@
 
 .NavigationA{
-    width: 173px;
+    min-width: 163px;
     height: 100%;
     display: inline-flex;
     flex-direction: row;
@@ -11,6 +11,7 @@
     color: #fff;
     position: relative;
     overflow: visible;
+    padding: 0 10px;
 }
 .NavigationA .link{
     width: 100%;
@@ -21,9 +22,6 @@
     cursor: pointer;
     user-select: none;
 }
-.NavigationA .disabled{
-
-}
 .NavigationA .list{
     width: 100%;
     position: absolute;
@@ -33,11 +31,26 @@
 }
 .list .NavigationA {
     height: 50px;
-
+    width: 100%;
+}
+.list .NavigationA span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .NavigationA .link *{
     margin-left: 10px;
 }
 .NavigationA.selected{
     background-color: var(--selected);
+}
+.NavigationA svg{
+    margin: 0 10px;
+}
+.NavigationA.listing{
+    cursor: pointer;
+}
+.disabled{
+    display: flex;
+    align-items: center;
 }

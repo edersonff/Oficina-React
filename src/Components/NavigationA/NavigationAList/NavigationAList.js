@@ -20,13 +20,15 @@ function NavigationAList({screen}) {
     const local = useLocation();
     const isLocal = (location) => { return location === local.pathname ? 'selected' : null };
     return (
-        <div className={'NavigationA '+isLocal(screen.route)} onMouseOver={()=>{ trueList() }} onMouseLeave={()=>{ falseList() }}>
+        <div className={'NavigationA listing '+isLocal(screen.route)} onMouseOver={()=>{ trueList() }} onMouseLeave={()=>{ falseList() }}>
             <a className='disabled' to={screen.route}>{screen.title} <BiDownArrow /></a>
 
-            <div className="list" style={{display: mouseOverHead || mouseOverList ? 'flex' : 'none'}} onMouseOver={()=>{ trueeHead() }} onMouseLeave={()=>{ falseHead() }}>
+            <div className="list" style={{display: mouseOverHead || mouseOverList ? 'block' : 'none'}} onMouseOver={()=>{ trueeHead() }} onMouseLeave={()=>{ falseHead() }}>
                 {screen.sub.map((sub)=>{
                     return(
-                        <Link className={'NavigationA '+isLocal(sub.route)} to={sub.route}>{sub.title} {sub.sub ? <BiDownArrow /> : null}</Link>
+                        <Link className={'NavigationA '+isLocal(sub.route)} to={sub.route}>
+                            <span>{sub.title} {sub.sub ? <BiDownArrow /> : null}</span>
+                        </Link>
                     )
                 })}
             </div>
