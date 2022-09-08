@@ -5,7 +5,7 @@
 # Oficina Nelson Auto Peças
 ## Sobre
 
-### Por que o projeto foi feito?
+### Intuito
 O projeto foi feito para uma empresa.
 
 ### Como foi feito
