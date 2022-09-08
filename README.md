@@ -12,9 +12,9 @@ O projeto foi feito para uma empresa.
 A aplicação surgiu com a ideia de aproveitar o ambiente tecnológico para engajar/divulgar a marca da empresa <b> Nelson Auto Peças </b>
 
 ### Adicionais
-A projeção do site e seu desenvolvimento foi feito durante 1-2 dias, o que ao todo deu 10 - 20 horas.
-Posso dizer que a maior dificuldade que tive foi o uso do Firebase Hosting por nunca tê-lo utilizado anteriormente.
-Também foi feito a reformulação da logo da empresa.
+- A projeção do site e seu desenvolvimento foi feito durante 1-2 dias, o que ao todo deu 10 - 20 horas.
+- Posso dizer que a maior dificuldade que tive foi o uso do Firebase Hosting por nunca tê-lo utilizado anteriormente.
+- Também foi feito a reformulação da logo da empresa.
 O projeto está ainda em andamento.
 
 ## Detalhes
