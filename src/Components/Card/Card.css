@@ -1,16 +1,17 @@
 .card{
-    width: 310px;
+    width: 300px;
     height: 75px;
     display: flex;
     align-items: center;
+    color: rgb(32, 32, 32);
 }
 .card .icon{
-    width: 22%;
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 .info{
     height: 53px;
