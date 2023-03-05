@@ -1,4 +1,5 @@
 import React from 'react';
+import Iframe from '../Iframe/Iframe';
 import './SocialMedia.css';
 
 function SocialMedia({Icon}) {
